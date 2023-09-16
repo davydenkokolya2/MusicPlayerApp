@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MusicPlayerApp</string>
+    <string name="title_song_1_playlist_1">Electric Dreamscape</string>
+    <string name="title_song_2_playlist_1">Enchanted Reverie</string>
+    <string name="title_song_3_playlist_1">Velvet Twilight</string>
+    <string name="title_song_4_playlist_1">Starlit Serenade</string>
+    <string name="title_song_5_playlist_1">Sapphire Mirage</string>
+    <string name="title_song_6_playlist_1">Celestial Melodies</string>
+    <string name="title_song_7_playlist_1">Whispering Aurora</string>
+    <string name="author_song_1_playlist_1">Harrison Drake</string>
+    <string name="author_song_2_playlist_1">Quinn Montgomery</string>
+    <string name="author_song_3_playlist_1">Landon Caldwell</string>
+    <string name="author_song_4_playlist_1">Peyton Kensington</string>
+    <string name="author_song_5_playlist_1">Morgan Hawthorne</string>
+    <string name="author_song_6_playlist_1">Sterling Whitman</string>
+    <string name="author_song_7_playlist_1">Spencer Mercer</string>
+    <string name="play">PLAY</string>
+    <string name="pause">PAUSE</string>
+    <string name="home">Home</string>
+    <string name="popular_playlist">POPULAR PLAYLIST</string>
+    <string name="recently_played">RECENTLY PLAYED</string>
+    <string name="twilight_sonata">Twilight Sonata</string>
+    <string name="jasper_winslow">Jasper Winslow</string>
+    <string name="cosmic_echoes">Cosmic Echoes</string>
+    <string name="avery_sinclair">Avery Sinclair</string>
+    <string name="crimson_horizon">Crimson Horizon</string>
+    <string name="elliott_tate">Elliott Tate</string>
+    <string name="playlists_with_carefully_selected_music_for_different_occasions">Playlists with carefully selected music for different occasions</string>
+    <string name="start">START</string>
+    <string name="updated_17_aug_2023">Updated 17 Aug 2023</string>
+    <string name="favourite">Favourite</string>
+    <string name="_1">1</string>
+</resources>

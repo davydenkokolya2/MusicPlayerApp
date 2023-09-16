@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey"
+    tools:context=".ui.player.PlayerFragment">
+
+
+    <TextView
+        android:id="@+id/tvTitlePlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/twilight_sonata"
+        android:textColor="@color/grey"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/ivSong"
+        app:layout_constraintStart_toStartOf="@+id/ivSong"
+        app:layout_constraintTop_toBottomOf="@+id/ivSong" />
+
+    <TextView
+        android:id="@+id/tvAuthorPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/jasper_winslow"
+        android:textColor="@color/middle_grey"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvTitlePlayer"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="@+id/tvTitlePlayer"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitlePlayer" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/updated_17_aug_2023"
+        android:textColor="@color/middle_grey"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvTitlePlayer"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="@+id/tvTitlePlayer"
+        app:layout_constraintTop_toBottomOf="@+id/tvAuthorPlayer" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/icon_toolbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/favourite"
+        android:textColor="@color/middle_grey"
+        android:textSize="12sp"
+        android:translationZ="1dp"
+        app:layout_constraintEnd_toEndOf="@+id/tvTitlePlayer"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="@+id/tvTitlePlayer"
+        app:layout_constraintTop_toBottomOf="@+id/btnFavourite" />
+
+    <ImageView
+        android:id="@+id/btnHomePlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp"
+        android:src="@drawable/icon_button_home_false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnFavouritePlayer"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/btnFavouritePlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_button_heart_false"
+        app:layout_constraintBottom_toBottomOf="@+id/btnHomePlayer"
+        app:layout_constraintEnd_toStartOf="@+id/imageView11"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnHomePlayer" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_button_music_true"
+        app:layout_constraintBottom_toBottomOf="@+id/btnFavouritePlayer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnFavouritePlayer" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="386dp"
+        android:layout_height="106dp"
+        android:layout_marginBottom="-15dp"
+        android:src="@drawable/icon_music_card_background"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/btnFavourite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/icon_grey_rectangle"
+        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/imageView12" />
+
+    <ImageView
+        android:id="@+id/ivHeart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_button_heart_false"
+        app:layout_constraintBottom_toBottomOf="@+id/btnFavourite"
+        app:layout_constraintEnd_toEndOf="@+id/btnFavourite"
+        app:layout_constraintStart_toStartOf="@+id/btnFavourite"
+        app:layout_constraintTop_toTopOf="@+id/btnFavourite" />
+
+    <ImageView
+        android:id="@+id/ivSong"
+        android:layout_width="0dp"
+        android:layout_height="280dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="67dp"
+        android:src="@drawable/icon_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/btnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/icon_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/tvPlayStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/start"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnPlay"
+        app:layout_constraintEnd_toEndOf="@+id/btnPlay"
+        app:layout_constraintStart_toStartOf="@+id/btnPlay"
+        app:layout_constraintTop_toTopOf="@+id/btnPlay" />
+</androidx.constraintlayout.widget.ConstraintLayout>
